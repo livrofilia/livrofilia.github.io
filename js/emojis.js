@@ -1,5 +1,6 @@
-var pre = "<img class='lf-emoticon' src='http://livrofilia.github.io/img/emojis/",
-    pos = ".png' style='border:none' border='0' />",
+var pre = "<div class='emoji lf-emoticon' style='background-image: url(http://livrofilia.github.io/img/emojis/",
+    pos = ".png)'></div>",
+
     PALETA = pre + '002' + pos,
     SOM = pre + '003' + pos,
     VOLTAR = pre + '004' + pos,
@@ -43,6 +44,15 @@ var pre = "<img class='lf-emoticon' src='http://livrofilia.github.io/img/emojis/
     RELOGIO = pre + '001' + pos,
     SPOILER = "\
 <style>\
+.emoji {\
+    background-size: 100%;\
+    background-repeat: no-repeat;\
+    width: 25px;\
+    height: 25px;\
+    position: relative;\
+    display: inline-block;\
+}\
+\
 .cont {\
   width: 650px;\
   max-width: 90%;\
