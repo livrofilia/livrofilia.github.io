@@ -44,14 +44,6 @@ var pre = "<div class='emoji lf-emoticon' style='background-image: url(http://li
     RELOGIO = pre + '001' + pos,
     SPOILER = "\
 <style>\
-.emoji {\
-    background-size: 100%;\
-    background-repeat: no-repeat;\
-    width: 25px;\
-    height: 25px;\
-    position: relative;\
-    display: inline-block;\
-}\
 \
 .cont {\
   width: 650px;\
@@ -133,57 +125,60 @@ width: calc(100% - 30px);\
 
     emoji = document.body;
 
-(function (window) {
-emoji.innerHTML = emoji.innerHTML.replace(/\[\[relogio\]\]/gi ,RELOGIO);
-emoji.innerHTML = emoji.innerHTML.replace(/\[\[paleta\]\]/gi ,PALETA);
-emoji.innerHTML = emoji.innerHTML.replace(/\[\[som\]\]/gi ,SOM);
-emoji.innerHTML = emoji.innerHTML.replace(/\[\[voltar\]\]/gi ,VOLTAR);
-emoji.innerHTML = emoji.innerHTML.replace(/\[\[estrela\]\]/gi ,ESTRELA);
-emoji.innerHTML = emoji.innerHTML.replace(/\[\[mundo\]\]/gi ,MUNDO);
-emoji.innerHTML = emoji.innerHTML.replace(/\[\[cancelar\]\]/gi ,CANCELAR);
-emoji.innerHTML = emoji.innerHTML.replace(/\[\[ok\]\]/gi ,OK);
-emoji.innerHTML = emoji.innerHTML.replace(/( 8\))/gi ," "+OCULOS);
-emoji.innerHTML = emoji.innerHTML.replace(/( \$\))/gi ," "+SORRISO1);
-emoji.innerHTML = emoji.innerHTML.replace(/( \;P)/gi ," "+LINGUA_PISCANDO);
-emoji.innerHTML = emoji.innerHTML.replace(/( \;p)/gi ," "+LINGUA_PISCANDO);
-emoji.innerHTML = emoji.innerHTML.replace(/\[\[ideia\]\]/gi ,IDEIA);
-emoji.innerHTML = emoji.innerHTML.replace(/\[\[casa\]\]/gi ,CASA);
-emoji.innerHTML = emoji.innerHTML.replace(/\[\[baixo\]\]/gi ,BAIXO);
-emoji.innerHTML = emoji.innerHTML.replace(/\[\[taca\]\]/gi ,TACA);
-emoji.innerHTML = emoji.innerHTML.replace(/\[\[foto\]\]/gi ,FOTO);
-emoji.innerHTML = emoji.innerHTML.replace(/\[\[zangado\]\]/gi ,ZANGADO);
-emoji.innerHTML = emoji.innerHTML.replace(/( \>\:\()/gi ," "+ZANGADO);
-emoji.innerHTML = emoji.innerHTML.replace(/( \>\:o)/gi ," "+ZANGADO);
-emoji.innerHTML = emoji.innerHTML.replace(/( \^\^)/gi ," "+GOZANDO);
-emoji.innerHTML = emoji.innerHTML.replace(/( \^\_\^)/gi ," "+GOZANDO);
-emoji.innerHTML = emoji.innerHTML.replace(/( \^\-\^)/gi ," "+GOZANDO);
-emoji.innerHTML = emoji.innerHTML.replace(/( \:O)/gi ," "+BOCA_ABERTA);
-emoji.innerHTML = emoji.innerHTML.replace(/( \:o)/gi ," "+BOCA_ABERTA);
-emoji.innerHTML = emoji.innerHTML.replace(/( D\:)/gi ," "+PEIXE);
-emoji.innerHTML = emoji.innerHTML.replace(/( \;\))/gi ," "+PISCANDO);
-emoji.innerHTML = emoji.innerHTML.replace(/( \:S)/gi ," "+CONTRARIADO);
-emoji.innerHTML = emoji.innerHTML.replace(/( \:I)/gi ," "+SERIO);
-emoji.innerHTML = emoji.innerHTML.replace(/( \:\|)/gi ," "+SERIO);
-emoji.innerHTML = emoji.innerHTML.replace(/( \:P)/gi ," "+LINGUA);
-emoji.innerHTML = emoji.innerHTML.replace(/\[\[8\]\]/gi ,NOTA);
-emoji.innerHTML = emoji.innerHTML.replace(/♥/gi ,CORACAO);
-emoji.innerHTML = emoji.innerHTML.replace(/(\[coração\])/gi ,CORACAO);
-emoji.innerHTML = emoji.innerHTML.replace(/( <3)/gi ," "+CORACAO);
-emoji.innerHTML = emoji.innerHTML.replace(/( \:D)/gi ," "+FELIZ);
-emoji.innerHTML = emoji.innerHTML.replace(/\[\[espantado\]\]/gi ,ESPANTADO);
-emoji.innerHTML = emoji.innerHTML.replace(/( \:\()/gi ," "+TRISTE);
-emoji.innerHTML = emoji.innerHTML.replace(/( \:\))/gi ," "+SORRISO2);
-emoji.innerHTML = emoji.innerHTML.replace(/\[\[raio\]\]/gi ,RAIO);
-emoji.innerHTML = emoji.innerHTML.replace(/\[\[chave\]\]/gi ,CHAVE);
-emoji.innerHTML = emoji.innerHTML.replace(/\[\[msn\]\]/gi ,MSN);
-emoji.innerHTML = emoji.innerHTML.replace(/\[\[msn2\]\]/gi ,MSN2);
-emoji.innerHTML = emoji.innerHTML.replace(/\[\[telefone\]\]/gi ,TELEFONE);
-emoji.innerHTML = emoji.innerHTML.replace(/\[\[pizza\]\]/gi ,PIZZA);
-emoji.innerHTML = emoji.innerHTML.replace(/\[\[presente\]\]/gi ,PRESENTE);
-emoji.innerHTML = emoji.innerHTML.replace(/( <\/3)/gi ," "+CORACAO_PARTIDO);
-emoji.innerHTML = emoji.innerHTML.replace(/\[\[cima\]\]/gi ,CIMA);
-emoji.innerHTML = emoji.innerHTML.replace(/\[\[banana\]\]/gi ,BANANA);
-emoji.innerHTML = emoji.innerHTML.replace(/\[\[blogger\]\]/gi ,BLOGGER);
-emoji.innerHTML = emoji.innerHTML.replace(/\[\[spoiler\]\]/gi ,SPOILER);
-emoji.innerHTML = emoji.innerHTML.replace(/\[\[SPOILER\]\]/gi ,SPOILER);
+(function ( window )
+{
+  emoji.innerHTML = emoji.innerHTML.replace(/\[\[relogio\]\]/gi ,RELOGIO);
+  emoji.innerHTML = emoji.innerHTML.replace(/\[\[paleta\]\]/gi ,PALETA);
+  emoji.innerHTML = emoji.innerHTML.replace(/\[\[som\]\]/gi ,SOM);
+  emoji.innerHTML = emoji.innerHTML.replace(/\[\[voltar\]\]/gi ,VOLTAR);
+  emoji.innerHTML = emoji.innerHTML.replace(/\[\[estrela\]\]/gi ,ESTRELA);
+  emoji.innerHTML = emoji.innerHTML.replace(/\[\[mundo\]\]/gi ,MUNDO);
+  emoji.innerHTML = emoji.innerHTML.replace(/\[\[cancelar\]\]/gi ,CANCELAR);
+  emoji.innerHTML = emoji.innerHTML.replace(/\[\[ok\]\]/gi ,OK);
+  emoji.innerHTML = emoji.innerHTML.replace(/( 8\))/gi ," "+OCULOS);
+  emoji.innerHTML = emoji.innerHTML.replace(/( \$\))/gi ," "+SORRISO1);
+  emoji.innerHTML = emoji.innerHTML.replace(/( \;P)/gi ," "+LINGUA_PISCANDO);
+  emoji.innerHTML = emoji.innerHTML.replace(/( \;p)/gi ," "+LINGUA_PISCANDO);
+  emoji.innerHTML = emoji.innerHTML.replace(/\[\[ideia\]\]/gi ,IDEIA);
+  emoji.innerHTML = emoji.innerHTML.replace(/\[\[casa\]\]/gi ,CASA);
+  emoji.innerHTML = emoji.innerHTML.replace(/\[\[baixo\]\]/gi ,BAIXO);
+  emoji.innerHTML = emoji.innerHTML.replace(/\[\[taca\]\]/gi ,TACA);
+  emoji.innerHTML = emoji.innerHTML.replace(/\[\[foto\]\]/gi ,FOTO);
+  emoji.innerHTML = emoji.innerHTML.replace(/\[\[zangado\]\]/gi ,ZANGADO);
+  emoji.innerHTML = emoji.innerHTML.replace(/( \>\:\()/gi ," "+ZANGADO);
+  emoji.innerHTML = emoji.innerHTML.replace(/( \>\:o)/gi ," "+ZANGADO);
+  emoji.innerHTML = emoji.innerHTML.replace(/( \^\^)/gi ," "+GOZANDO);
+  emoji.innerHTML = emoji.innerHTML.replace(/( \^\_\^)/gi ," "+GOZANDO);
+  emoji.innerHTML = emoji.innerHTML.replace(/( \^\-\^)/gi ," "+GOZANDO);
+  emoji.innerHTML = emoji.innerHTML.replace(/( \:O)/gi ," "+BOCA_ABERTA);
+  emoji.innerHTML = emoji.innerHTML.replace(/( \:o)/gi ," "+BOCA_ABERTA);
+  emoji.innerHTML = emoji.innerHTML.replace(/( D\:)/gi ," "+PEIXE);
+  emoji.innerHTML = emoji.innerHTML.replace(/( \;\))/gi ," "+PISCANDO);
+  emoji.innerHTML = emoji.innerHTML.replace(/( \:S)/gi ," "+CONTRARIADO);
+  emoji.innerHTML = emoji.innerHTML.replace(/( \:I)/gi ," "+SERIO);
+  emoji.innerHTML = emoji.innerHTML.replace(/( \:\|)/gi ," "+SERIO);
+  emoji.innerHTML = emoji.innerHTML.replace(/( \:P)/gi ," "+LINGUA);
+  emoji.innerHTML = emoji.innerHTML.replace(/\[\[8\]\]/gi ,NOTA);
+  emoji.innerHTML = emoji.innerHTML.replace(/♥/gi ,CORACAO);
+  emoji.innerHTML = emoji.innerHTML.replace(/(\[coração\])/gi ,CORACAO);
+  emoji.innerHTML = emoji.innerHTML.replace(/( <3)/gi ," "+CORACAO);
+  emoji.innerHTML = emoji.innerHTML.replace(/( \:D)/gi ," "+FELIZ);
+  emoji.innerHTML = emoji.innerHTML.replace(/\[\[espantado\]\]/gi ,ESPANTADO);
+  emoji.innerHTML = emoji.innerHTML.replace(/( \:\()/gi ," "+TRISTE);
+  emoji.innerHTML = emoji.innerHTML.replace(/( \:\))/gi ," "+SORRISO2);
+  emoji.innerHTML = emoji.innerHTML.replace(/\[\[raio\]\]/gi ,RAIO);
+  emoji.innerHTML = emoji.innerHTML.replace(/\[\[chave\]\]/gi ,CHAVE);
+  emoji.innerHTML = emoji.innerHTML.replace(/\[\[msn\]\]/gi ,MSN);
+  emoji.innerHTML = emoji.innerHTML.replace(/\[\[msn2\]\]/gi ,MSN2);
+  emoji.innerHTML = emoji.innerHTML.replace(/\[\[telefone\]\]/gi ,TELEFONE);
+  emoji.innerHTML = emoji.innerHTML.replace(/\[\[pizza\]\]/gi ,PIZZA);
+  emoji.innerHTML = emoji.innerHTML.replace(/\[\[presente\]\]/gi ,PRESENTE);
+  emoji.innerHTML = emoji.innerHTML.replace(/( <\/3)/gi ," "+CORACAO_PARTIDO);
+  emoji.innerHTML = emoji.innerHTML.replace(/\[\[cima\]\]/gi ,CIMA);
+  emoji.innerHTML = emoji.innerHTML.replace(/\[\[banana\]\]/gi ,BANANA);
+  emoji.innerHTML = emoji.innerHTML.replace(/\[\[blogger\]\]/gi ,BLOGGER);
+  emoji.innerHTML = emoji.innerHTML.replace(/\[\[spoiler\]\]/gi ,SPOILER);
+  emoji.innerHTML = emoji.innerHTML.replace(/\[\[SPOILER\]\]/gi ,SPOILER);
+
+  $( 'head' ).append('<link rel="stylesheet" href="http://livrofilia.github.io/css/emoji/emoji.css" />');
 })(window);
