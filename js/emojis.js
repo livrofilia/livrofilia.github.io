@@ -1,4 +1,4 @@
-var pre = "<img class='lf-emoticon' src='http://acessoriosparablogs.com.br/emoticons/",
+var pre = "<img class='lf-emoticon' src='http://livrofilia.github.io/img/emojis/",
     pos = ".png' style='border:none' border='0' />",
     PALETA = pre + '002' + pos,
     SOM = pre + '003' + pos,
