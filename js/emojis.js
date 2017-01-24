@@ -1,5 +1,5 @@
-var pre = "<div class='emoji' style='background-image: url(http://livrofilia.github.io/img/emojis/",
-    pos = ".png)'></div>",
+var pre = "<img class='emoji' src='http://livrofilia.github.io/img/emojis/",
+    pos = ".png' />",
 
     PALETA = pre + '002' + pos,
     SOM = pre + '003' + pos,
