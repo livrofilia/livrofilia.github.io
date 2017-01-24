@@ -180,7 +180,7 @@ width: calc(100% - 30px);\
   emoji.innerHTML = emoji.innerHTML.replace(/\[\[blogger\]\]/gi ,BLOGGER);
   emoji.innerHTML = emoji.innerHTML.replace(/\[\[spoiler\]\]/gi ,SPOILER);
   emoji.innerHTML = emoji.innerHTML.replace(/\[\[SPOILER\]\]/gi ,SPOILER);
-  emoji.innerHTML = emoji.innerHTML.replace(/\[\[😅\]\]/gi ,OPS);
+  emoji.innerHTML = emoji.innerHTML.replace(/\😅/gi ,OPS);
 
   $( 'head' ).append('<link rel="stylesheet" href="http://livrofilia.github.io/css/emoji/emoji.css" />');
 })(window);
