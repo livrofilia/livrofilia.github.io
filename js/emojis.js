@@ -1,4 +1,4 @@
-var pre = "<div class='emoji lf-emoticon' style='background-image: url(http://livrofilia.github.io/img/emojis/",
+var pre = "<div class='emoji' style='background-image: url(http://livrofilia.github.io/img/emojis/",
     pos = ".png)'></div>",
 
     PALETA = pre + '002' + pos,
@@ -154,7 +154,8 @@ width: calc(100% - 30px);\
   emoji.innerHTML = emoji.innerHTML.replace(/( \:O)/gi ," "+BOCA_ABERTA);
   emoji.innerHTML = emoji.innerHTML.replace(/( \:o)/gi ," "+BOCA_ABERTA);
   emoji.innerHTML = emoji.innerHTML.replace(/( D\:)/gi ," "+PEIXE);
-  emoji.innerHTML = emoji.innerHTML.replace(/( \;\))/gi ," "+PISCANDO);
+  emoji.innerHTML = emoji.innerHTML.replace( /( \;\))/gi, " " + PISCANDO );
+  emoji.innerHTML = emoji.innerHTML.replace( /(😉))/gi, PISCANDO );
   emoji.innerHTML = emoji.innerHTML.replace(/( \:S)/gi ," "+CONTRARIADO);
   emoji.innerHTML = emoji.innerHTML.replace(/( \:I)/gi ," "+SERIO);
   emoji.innerHTML = emoji.innerHTML.replace(/( \:\|)/gi ," "+SERIO);
