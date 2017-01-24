@@ -41,6 +41,7 @@ var pre = "<div class='emoji lf-emoticon' style='background-image: url(http://li
     CORACAO_PARTIDO = pre + '039' + pos,
     CIMA = pre + '040' + pos,
     BANANA = pre + '041' + pos,
+    OPS = pre + '042' + pos,
     RELOGIO = pre + '001' + pos,
     SPOILER = "\
 <style>\
@@ -179,6 +180,7 @@ width: calc(100% - 30px);\
   emoji.innerHTML = emoji.innerHTML.replace(/\[\[blogger\]\]/gi ,BLOGGER);
   emoji.innerHTML = emoji.innerHTML.replace(/\[\[spoiler\]\]/gi ,SPOILER);
   emoji.innerHTML = emoji.innerHTML.replace(/\[\[SPOILER\]\]/gi ,SPOILER);
+  emoji.innerHTML = emoji.innerHTML.replace(/\[\[😅\]\]/gi ,OPS);
 
   $( 'head' ).append('<link rel="stylesheet" href="http://livrofilia.github.io/css/emoji/emoji.css" />');
 })(window);
