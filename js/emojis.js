@@ -155,7 +155,7 @@ width: calc(100% - 30px);\
   emoji.innerHTML = emoji.innerHTML.replace(/( \:o)/gi ," "+BOCA_ABERTA);
   emoji.innerHTML = emoji.innerHTML.replace(/( D\:)/gi ," "+PEIXE);
   emoji.innerHTML = emoji.innerHTML.replace( /( \;\))/gi, " " + PISCANDO );
-  emoji.innerHTML = emoji.innerHTML.replace( /😉)/gi, PISCANDO );
+  emoji.innerHTML = emoji.innerHTML.replace( /😉/gi, PISCANDO );
   emoji.innerHTML = emoji.innerHTML.replace(/( \:S)/gi ," "+CONTRARIADO);
   emoji.innerHTML = emoji.innerHTML.replace(/( \:I)/gi ," "+SERIO);
   emoji.innerHTML = emoji.innerHTML.replace(/( \:\|)/gi ," "+SERIO);
