@@ -1,4 +1,6 @@
 .emoji {
     width: 25px;
     height: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
