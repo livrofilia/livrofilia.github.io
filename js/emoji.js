@@ -67,6 +67,7 @@ var _before = '<span class="emoji_holder"><img class="emoji" src="http://livrofi
         window.setInterval(function ()
         {
           loadEmoji();
+          console.log( 'Emojis atualizados!' );
         }, 15000);
       }, 15000);
     });
