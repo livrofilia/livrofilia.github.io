@@ -1,5 +1,21 @@
 .emoji {
     width: 25px;
     height: 25px;
-    vertical-align: sub;
+    margin-top: 10px;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+}
+
+.emoji_holder {
+  vertical-align: sub;
+}
+.emoji_holder::before {
+  content: ' ';
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  margin-top: 10px;
 }

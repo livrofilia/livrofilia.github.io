@@ -1,0 +1,24 @@
+Tipografia
+--------------------------
+Fonte:
+TypoUpright BT
+Regular
+
+Obs.: A letra L está ligeiramente maior do que o tamanho proporcional às outras.
+
+
+
+
+Cores
+--------------------------
+Rosa claro:
+Hx: #fb8dff
+RGB: 251,141,255
+
+Rosa escuro:
+Hx: #e756ec
+RGB: 231,86,236
+
+Roxo:
+Hx: #9a008d
+RGB: 154,0,141
