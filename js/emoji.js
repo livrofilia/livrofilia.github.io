@@ -1,4 +1,4 @@
-var _before = '<span class="emoji_holder"><img class="emoji" src="http://livrofilia.github.io/img/emoji/',
+var _before = '<span class="emoji_holder"><img class="emoji" src="//livrofilia.github.io/img/emoji/',
     _after = '.png" /></span>',
 
     // Expressões
@@ -59,5 +59,5 @@ function loadEmoji ()
 
 
   $( '#emoji_css' ).remove();
-  $( 'head' ).append('<link id="emoji_css" rel="stylesheet" href="http://livrofilia.github.io/css/emoji/emoji.css" />');
+  $( 'head' ).append('<link id="emoji_css" rel="stylesheet" href="//livrofilia.github.io/css/emoji/emoji.css" />');
 }
