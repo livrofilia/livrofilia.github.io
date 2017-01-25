@@ -99,5 +99,6 @@ function loadEmoji ()
   emoji.innerHTML = emoji.innerHTML.replace( / (\[\[coração_partido\]\]|&lt;\/3)/gi, " " + _brokenHeart );
 
 
-  $( 'head' ).append('<link rel="stylesheet" href="http://livrofilia.github.io/css/emoji/emoji.css" />');
+  $( '#emoji_css' ).remove();
+  $( 'head' ).append('<link id="emoji_css" rel="stylesheet" href="http://livrofilia.github.io/css/emoji/emoji.css" />');
 }
