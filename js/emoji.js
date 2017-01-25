@@ -25,53 +25,12 @@ var _before = '<span class="emoji_holder"><img class="emoji" src="http://livrofi
     _brokenHeart = _before + 'Broken_Red_Heart_Emoji_Icon_42x42' + _after,
 
 
-
-
-    RELOGIO = _before + '001' + _after,
-    PALETA = _before + '002' + _after,
-    SOM = _before + '003' + _after,
-    VOLTAR = _before + '004' + _after,
-    ESTRELA = _before + '005' + _after,
-    MUNDO = _before + '006' + _after,
-    CANCELAR = _before + '007' + _after,
-    OK = _before + '008' + _after,
-    IDEIA = _before + '012' + _after,
-    CASA = _before + '013' + _after,
-    BAIXO = _before + '014' + _after,
-    TACA = _before + '015' + _after,
-    FOTO = _before + '016' + _after,
-    CONTRARIADO = _before + '022' + _after,
-    NOTA = _before + '025' + _after,
-    BLOGGER = _before + '026' + _after,
-    ESPANTADO = _before + '029' + _after,
-    TRISTE = _before + '030' + _after,
-    RAIO = _before + '032' + _after,
-    CHAVE = _before + '033' + _after,
-    MSN = _before + '034' + _after,
-    MSN2 = _before + '035' + _after,
-    TELEFONE = _before + '036' + _after,
-    PIZZA = _before + '037' + _after,
-    PRESENTE = _before + '038' + _after,
-    CIMA = _before + '040' + _after,
-    BANANA = _before + '041' + _after,
-
-
     emoji = document.body;
-
 
     $( document ).ready(function ()
     {
       loadEmoji();
-      window.setTimeout(function ()
-      {
-        window.setInterval(function ()
-        {
-          loadEmoji();
-          console.log( 'Emojis atualizados!' );
-        }, 15000);
-      }, 15000);
     });
-
 
 function loadEmoji ()
 {
