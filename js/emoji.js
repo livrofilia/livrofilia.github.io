@@ -99,35 +99,5 @@ function loadEmoji ()
   emoji.innerHTML = emoji.innerHTML.replace( / (\[\[coração_partido\]\]|&lt;\/3)/gi, " " + _brokenHeart );
 
 
-  emoji.innerHTML = emoji.innerHTML.replace( /(\[\[relogio\]\])/gi,RELOGIO );
-  emoji.innerHTML = emoji.innerHTML.replace( /\[\[paleta\]\]/gi ,PALETA );
-  emoji.innerHTML = emoji.innerHTML.replace( /\[\[som\]\]/gi ,SOM );
-  emoji.innerHTML = emoji.innerHTML.replace( /\[\[voltar\]\]/gi ,VOLTAR );
-  emoji.innerHTML = emoji.innerHTML.replace( /\[\[estrela\]\]/gi ,ESTRELA );
-  emoji.innerHTML = emoji.innerHTML.replace( /\[\[mundo\]\]/gi ,MUNDO );
-  emoji.innerHTML = emoji.innerHTML.replace( /\[\[cancelar\]\]/gi ,CANCELAR );
-  emoji.innerHTML = emoji.innerHTML.replace( /\[\[ok\]\]/gi ,OK );
-  emoji.innerHTML = emoji.innerHTML.replace( /\[\[ideia\]\]/gi ,IDEIA );
-  emoji.innerHTML = emoji.innerHTML.replace( /\[\[casa\]\]/gi ,CASA );
-  emoji.innerHTML = emoji.innerHTML.replace( /\[\[baixo\]\]/gi ,BAIXO );
-  emoji.innerHTML = emoji.innerHTML.replace( /\[\[taca\]\]/gi ,TACA );
-  emoji.innerHTML = emoji.innerHTML.replace( /\[\[foto\]\]/gi ,FOTO );
-  emoji.innerHTML = emoji.innerHTML.replace( /( \:S)/gi ," "+CONTRARIADO );
-  emoji.innerHTML = emoji.innerHTML.replace( /\[\[8\]\]/gi ,NOTA );
-  emoji.innerHTML = emoji.innerHTML.replace( /\[\[espantado\]\]/gi ,ESPANTADO );
-  emoji.innerHTML = emoji.innerHTML.replace( /( \:\()/gi ," "+TRISTE );
-  emoji.innerHTML = emoji.innerHTML.replace( /\[\[raio\]\]/gi ,RAIO );
-  emoji.innerHTML = emoji.innerHTML.replace( /\[\[chave\]\]/gi ,CHAVE );
-  emoji.innerHTML = emoji.innerHTML.replace( /\[\[msn\]\]/gi ,MSN );
-  emoji.innerHTML = emoji.innerHTML.replace( /\[\[msn2\]\]/gi ,MSN2 );
-  emoji.innerHTML = emoji.innerHTML.replace( /\[\[telefone\]\]/gi ,TELEFONE );
-  emoji.innerHTML = emoji.innerHTML.replace( /\[\[pizza\]\]/gi ,PIZZA );
-  emoji.innerHTML = emoji.innerHTML.replace( /\[\[presente\]\]/gi ,PRESENTE );
-
-  emoji.innerHTML = emoji.innerHTML.replace( /\[\[cima\]\]/gi ,CIMA );
-  emoji.innerHTML = emoji.innerHTML.replace( /\[\[banana\]\]/gi ,BANANA );
-  emoji.innerHTML = emoji.innerHTML.replace( /\[\[blogger\]\]/gi ,BLOGGER );
-
-
   $( 'head' ).append('<link rel="stylesheet" href="http://livrofilia.github.io/css/emoji/emoji.css" />');
 }
