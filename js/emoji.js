@@ -1,4 +1,4 @@
-var _before = '<span class="emoji_holder"><img class="emoji" src="img/emoji/',
+var _before = '<span class="emoji_holder"><img class="emoji" src="http://livrofilia.github.io/img/emoji/',
     _after = '.png" /></span>',
 
     // Expressões
@@ -65,7 +65,7 @@ var _before = '<span class="emoji_holder"><img class="emoji" src="img/emoji/',
         noiframe.innerHTML = noiframe.innerHTML.replace( / (💜|\[\[coração_roxo\]\]|♥_roxo|&lt;3_roxo|s2_roxo)/gi, " " + _heartPurple );
         noiframe.innerHTML = noiframe.innerHTML.replace( / (💔|\[\[coração_partido\]\]|&lt;\/3)/gi, " " + _brokenHeart );
 
-        $( 'head' ).append('<link rel="stylesheet" href="css/emoji/emoji.css" />');
+        $( 'head' ).append('<link rel="stylesheet" href="http://livrofilia.github.io/css/emoji/emoji.css" />');
       }
     };
 
