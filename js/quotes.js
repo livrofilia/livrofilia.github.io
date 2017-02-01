@@ -1,4 +1,4 @@
-var rdm = Math.floor(Math.random() * cita.length);
+var rdm = Math.floor(Math.random() * cita.length - 1);
 var q = document.getElementById('cit-text');
 var citaText = cita[rdm];
 var citaBook = livro[rdm];
