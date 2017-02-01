@@ -1,0 +1,79 @@
+#holder {
+  width: 100%;
+  min-height: 200px;
+  user-select: all;
+}
+
+.block1 {
+  display: inline-block;
+  min-width: 250px;
+  float: left;
+  background-color: transparent;
+}
+
+#cit-text {
+  width: 90%;
+  height: auto;
+  text-align: justify;
+  padding-left: 15px;
+  padding-top: 20px;
+  font-size: 1.35em;
+  font-family: 'Book Antiqua', Palatino, 'Palatino Linotype', 'Palatino LT STD', Georgia, serif;
+  color: #000;
+}
+
+@media all and (min-width: 400px) {
+  #cit-text::before {
+    content: '';
+    width: 50px;
+    height: 55px;
+    position: absolute;
+    margin-top: -20px;
+    margin-left: -55px;
+    background-image: url(http://jvribeiro.github.io/quote.png);
+    background-size: 100%;
+    background-position: initial;
+    background-repeat: no-repeat;
+    opacity: .4;
+  }
+
+  #cit-text::after {
+    content: '';
+    width: 50px;
+    height: 55px;
+    transform: rotate(180deg);
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 280px;
+    background-image: url(http://jvribeiro.github.io/quote.png);
+    background-size: 100%;
+    background-position: initial;
+    background-repeat: no-repeat;
+    opacity: .4;
+  }
+}
+
+@media all and (max-width: 399px) {
+  #cit-text::before {
+    display: none;
+  }
+
+  #cit-text::after {
+    display: none;
+  }
+}
+
+.cita-book {
+  text-align: right;
+  font-size: .8em;
+  color: #a16ea7;
+  font-family: 'Arima Madurai', cursive;
+  font-style: normal;
+}
+
+.cita-aut {
+  text-align: right;
+  font-size: .8em;
+  font-family: Calibri, Arial, sans-serif;
+  font-style: normal;
+}

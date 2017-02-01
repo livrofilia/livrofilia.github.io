@@ -1,0 +1,188 @@
+<div id='holder'>
+  <div class='block1'>
+    <div id='cit-text'></div>
+  </div>
+</div>
+
+<script>
+// ********** ******** ******** ******* ******* ******
+// A partir daqui, você adiciona as frases
+
+var cita = [
+'O que enxergo é suficiente para compreender o mundo.',
+
+'Existem forças, existem anjos, que nos rodeiam, todo o tempo, quando precisamos ou não.',
+
+'A partir daqui, porém, é tudo suposição e não muito mais do que isso...',
+
+'[...] só se vê bem com o coração. O essencial é invisível aos olhos.',
+
+'A gente nunca se contenta com o lugar em que se encontra.',
+'Quem tem um porquê enfrenta qualquer como.',
+
+'Quando o mistério é muito profundo, é melhor não contrariar.',
+
+'Não se pode conhecer as borboletas sem suportar duas ou três lagartas.',
+
+'Nossa vida é feita de um monte de momentos esquecíveis, entremeados por pouquíssimos inesquecíveis.',
+
+'Será que sou uma louca que apenas transfere seus delírios e consciência perturbada para a palavra  escrita?',
+
+'A normalidade é um comprimido amargo do qual reclamamos.',
+'Será mesmo que se nos colocássemos no lugar do outro o julgaríamos tão mal?',
+
+'Não sei se alguém sabe o que procura até encontrar.',
+
+'Rir é coisa de gente forte, não de gente fraca e a felicidade é nossa tábua de salvação.',
+
+'Parte de amar é deixar a pessoa ser quem ela quer ser.',
+
+'Se quiser ser amado, seja amável.',
+
+'Se não houver sentimento de medo, não vai haver necessidade de coragem.',
+
+'E o medo de as pessoas irem embora se tornou maior do que o medo da solidão (que ela nem mais sabia o que era).',
+
+'Ciclos começam e terminam o tempo todo. Nós é que perambulamos entre eles tentando encontrar um lugar seguro para ficar.',
+
+'Sonhos e pesadelos começam exatamente do mesmo jeito.',
+
+'Porque é isso que acontece quando se está com alguém assim: o mundo se encolhe e toma a proporção correta.',
+
+'E aquela lhe pareceu a forma mais verdadeira de gentileza, o tipo mais básico de amor: a preocupação com aquele que também se preocupa com você.',
+
+'Mas não existe começo que seja totalmente novo. Toda novidade chega no encalço de algo velho, e todo início vem à custa de um fim.',
+
+'Não havia mais espaço para as palavras, tudo o que restava eram dois corações batendo.',
+
+'Afinal, nem tudo pode durar. Nem tudo deve ter algum significado.','Se não estiver com medo, então não é humano.',
+
+'Quando alguém de quem se gosta está perto, a gente simplesmente sabe.',
+
+'Acho que você confunde conforto com felicidade.',
+
+'Há coisas sobre nós mesmos que só aprendemos quando deixamos alguém se aproximar de verdade.',
+
+'Quando você sabe que alguém é importante pra você, abrir mão de algumas coisas, e mesmo de si própria, não parece um sacrifício.',
+
+'Não há nada que evidencie tanto a presença de uma pessoa do que a ausência dela.',
+
+'E, quando você tem medo, tudo parece mais assustador do que deveria ser — até as coisas que não são.',
+
+'A gente só conhece bem as coisas que cativou.',
+
+'Não dá para simplesmente ficar prolongando certas coisas para sempre. Chega um momento em que o melhor a fazer é arrancar o Band-Aid. Isso dói, mas depois passa, e então vem o alívio.',
+
+'Amo a solidão, mas morro de medo de ficar sozinho.',
+
+'Gente feliz não se incomoda com a felicidade do outro, sabe como é...',
+
+'A verdade é que um dia, cedo ou tarde, a dor nos invade sem pedir licença.',
+
+'A vida é tão imprevisível... E o amor, tão necessário.',
+
+'E o que a gente faz com toda essa distância?',
+
+'Torce por mim. Me deixa ganhar o mundo lá fora... é ele que constrói o mundo há aqui dentro.',
+
+'Nem tudo que é lindo precisa de explicação. As coisas simplesmente acontecem.',
+];
+
+
+
+// A partir daqui, você adiciona o nome dos livros
+var livro = [
+'Surpreendente!',
+'A Ajuda Veio do Céu',
+'A Menina Submersa: Memórias',
+'O Pequeno Príncipe',
+'O Pequeno Príncipe',
+'Surpreendente!',
+'O Pequeno Príncipe',
+'O Pequeno Príncipe',
+'Surpreendente!',
+'A Menina Submersa: Memórias',
+'A Menina Submersa: Memórias',
+'A Ajuda Veio do Céu',
+'A Herdeira',
+'Sonhando a Palestina',
+'Garoto Encontra Garoto',
+'Garoto Encontra Garoto',
+'Garoto Encontro Garoto',
+'A Princesinha Medrosa',
+'De Volta aos Quinze',
+'De Volta aos Quinze',
+'A Geografia de Nós Dois',
+'A Geografia de Nós Dois',
+'A Geografia de Nós Dois',
+'A Geografia de Nós Dois',
+'A Geografia de Nós Dois',
+'Maze Runner: Correr ou Morrer',
+'Maze Runner: Prova de Fogo',
+'A Herdeira',
+'A Herdeira',
+'A Herdeira',
+'A Coroa',
+'O Capítulo do Julian',
+'O Pequeno Príncipe',
+'Quem é Você, Alasca?',
+'Só a Gente Sabe o Que Sente',
+'Só a Gente Sabe o Que Sente',
+'Só a Gente Sabe o Que Sente',
+'Só a Gente Sabe o Que Sente',
+'Só a Gente Sabe o Que Sente',
+'Só a Gente Sabe o Que Sente',
+'Só a Gente Sabe o Que Sente',
+];
+
+
+
+
+// A partir daqui, você adiciona o nome dos autores
+var autor = [
+'Maurício Gomyde',
+'Lorrayne Saraiva',
+'Caitlín R. Kiernan',
+'Antoine de Saint-Exupéry',
+'Antoine de Saint-Exupéry',
+'Maurício Gomyde',
+'Antoine de Saint-Exupéry',
+'Antoine de Saint-Exupéry',
+'Maurício Gomyde',
+'Caitlín R. Kiernan',
+'Caitlín R. Kiernan',
+'Lorrayne Saraiva',
+'Kiera Cass',
+'Randa Ghazy',
+'David Levithan',
+'David Levithan',
+'David Levithan',
+'Odilon Moraes',
+'Bruna Vieira',
+'Bruna Vieira',
+'Jennifer E. Smith',
+'Jennifer E. Smith',
+'Jennifer E. Smith',
+'Jennifer E. Smith',
+'Jennifer E. Smith',
+'James Dashner',
+'James Dashner',
+'Kiera Cass',
+'Kiera Cass',
+'Kiera Cass',
+'Kiera Cass',
+'R.J. Palacio',
+'Antoine de Saint-Exupéry',
+'John Green',
+'Frederico Elboni',
+'Frederico Elboni',
+'Frederico Elboni',
+'Frederico Elboni',
+'Frederico Elboni',
+'Frederico Elboni',
+'Frederico Elboni',
+];
+
+$( 'head' ).append( '<link src="//livrofilia.github.io/css/quotes.css" />' );
+$( 'body' ).append( '<script src="//livrofilia.github.io/js/quotes.js"></script>' );
+</script>
