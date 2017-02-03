@@ -1,0 +1,255 @@
+.post-header {
+  margin-top: -125px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: -80px;
+}
+
+.lf-profile-pic-holder {
+  width: 100%;
+  height: 150px;
+  position: relative;
+  text-align: center;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  padding-top: 1px;
+  border-radius: 20px 20px 0 0;
+   -webkit-border-radius: 20px 20px 0 0;
+   -moz-border-radius: 20px 20px 0 0;
+   -ms-border-radius: 20px 20px 0 0;
+   -o-border-radius: 20px 20px 0 0;
+  background: #ffffff;
+  background: -moz-linear-gradient(to bottom, #fff 10%, rgb(255, 255, 255) 25%, rgba(255, 255, 255, 0.95) 40%, rgba(255, 255, 255, 0.7) 60%, rgba(255, 255, 255, 0.5) 70%, rgba(255, 255, 255, 0.3) 80%, rgba(255, 255, 255, 0.2) 85%, rgba(255, 255, 255, 0.1) 90%, rgba(255, 255, 255, 0.05) 95%, transparent 100%);
+  background: -webkit-linear-gradient(to bottom, #fff 10%, rgb(255, 255, 255) 25%, rgba(255, 255, 255, 0.95) 40%, rgba(255, 255, 255, 0.7) 60%, rgba(255, 255, 255, 0.5) 70%, rgba(255, 255, 255, 0.3) 80%, rgba(255, 255, 255, 0.2) 85%, rgba(255, 255, 255, 0.1) 90%, rgba(255, 255, 255, 0.05) 95%, transparent 100%);
+  background: -ms-linear-gradient(to bottom, #fff 10%, rgb(255, 255, 255) 25%, rgba(255, 255, 255, 0.95) 40%, rgba(255, 255, 255, 0.7) 60%, rgba(255, 255, 255, 0.5) 70%, rgba(255, 255, 255, 0.3) 80%, rgba(255, 255, 255, 0.2) 85%, rgba(255, 255, 255, 0.1) 90%, rgba(255, 255, 255, 0.05) 95%, transparent 100%);
+  background: linear-gradient(to bottom, #fff 10%, rgb(255, 255, 255) 25%, rgba(255, 255, 255, 0.95) 40%, rgba(255, 255, 255, 0.7) 60%, rgba(255, 255, 255, 0.5) 70%, rgba(255, 255, 255, 0.3) 80%, rgba(255, 255, 255, 0.2) 85%, rgba(255, 255, 255, 0.1) 90%, rgba(255, 255, 255, 0.05) 95%, transparent 100%);
+  z-index: 1;
+}
+
+.lf-profile-resume {
+  background-color: #fff;
+  width: 200px;
+  height: 150px;
+  display: none;
+  position: absolute;
+  left: calc(50% - 100px);
+    left: -webkit-calc(50% - 100px);
+    left: -moz-calc(50% - 100px);
+    left: -ms-calc(50% - 100px);
+    left: -o-calc(50% - 100px);
+  margin-top: -195px;
+  border: 1px solid #d0d0d0;
+  border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    -ms-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    -o-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+
+.lf-profile-resume-down {
+  background-color: #fff;
+    width: 200px;
+    height: 150px;
+    display: none;
+    position: absolute;
+    left: calc(50% - 100px);
+    left: -webkit-calc(50% - 100px);
+    left: -moz-calc(50% - 100px);
+    left: -ms-calc(50% - 100px);
+    left: -o-calc(50% - 100px);
+    margin-top: 150px;
+    border: 1px solid #d0d0d0;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    box-shadow: 0 0px 30px 60px rgba(255, 255, 255, 0.9);
+    -webkit-box-shadow: 0 0px 30px 60px rgba(255, 255, 255, 0.9);
+    -moz-box-shadow: 0 0px 30px 60px rgba(255, 255, 255, 0.9);
+    -ms-box-shadow: 0 0px 30px 60px rgba(255, 255, 255, 0.9);
+    -o-box-shadow: 0 0px 30px 60px rgba(255, 255, 255, 0.9);
+	z-index: 1;
+}
+
+.lf-profile-resume-cover {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+  overflow: hidden;
+}
+
+.lf-profile-resume::before {
+  background-color: #fff;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  left: calc(50% - 10px);
+    left: -webkit-calc(50% - 10px);
+    left: -moz-calc(50% - 10px);
+    left: -ms-calc(50% - 10px);
+    left: -o-calc(50% - 10px);
+  transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+  margin-top: 135px;
+  border: 1px solid #d0d0d0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    -ms-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    -o-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  content: &#39;&#39;;
+  z-index: 0;
+}
+
+
+.lf-profile-resume-cover img {
+  width: 100%;
+  height: auto;
+  filter: blur(4px) brightness(.9);
+  -webkit-filter: blur(4px) brightness(.9);
+  -moz-filter: blur(4px) brightness(.9);
+  -ms-filter: blur(4px) brightness(.9);
+  filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius=&#39;4&#39;);
+}
+
+.lf-profile-resume-pic {
+  width: 80px;
+  height: 80px;
+  border: 3px solid #fff;
+  background-color: #fff;
+  position: relative;
+  text-align: center;
+  border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+  margin-top: -80px;
+  left: calc(50% - 40px);
+    left: -webkit-calc(50% - 40px);
+    left: -moz-calc(50% - 40px);
+    left: -ms-calc(50% - 40px);
+    left: -o-calc(50% - 40px);
+  overflow: hidden;
+}
+
+.lf-profile-resume-pic-overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.lf-profile-resume-pic img {
+  width: 100px;
+  height: auto;
+  margin-left: -10px;
+  margin-top: -10px;
+  border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+  transition: .2s ease;
+}
+
+.lf-profile-resume-author-info {
+  width: 100%;
+  height: 35%;
+  line-height: 1;
+  background-color: #ffffff;
+  background-image: url(http://jvribeiro.github.io/livrofilia-logo-icon-250-alt-2.png);
+    background-size: 60%;
+    background-position: -35px -35px;
+    background-repeat: no-repeat;
+  border-top: 1px solid #d0d0d0;
+  border-radius: 0 0 10px 10px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.lf-profile-resume-post-by {
+  font-family: Arial,sans-serif;
+  font-size: 10pt;
+  color: #b3b3b3;
+}
+
+.lf-profile-resume-author-name {
+  font-family: Arial,sans-serif;
+  font-weight: bold;
+  font-size: 12pt;
+  color: #b24dff;
+}
+
+.lf-profile-pic {
+  width: 60px;
+    height: 60px;
+    border: 3px solid #fff;
+    background-color: #fff;
+    background-image: url(http://jvribeiro.github.io/livrofilia-logo-icon-64.png);
+    background-size: 100%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    position: relative;
+    text-align: center;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    margin-top: -40px;
+    left: calc(50% - 30px);
+    left: -webkit-calc(50% - 30px);
+    left: -moz-calc(50% - 30px);
+    left: -ms-calc(50% - 30px);
+    left: -o-calc(50% - 30px);
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 1000;
+}
+
+.lf-profile-pic-overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.lf-profile-pic img {
+  width: auto;
+  height: 75px;
+  margin-left: -5px;
+  margin-top: -5px;
+  border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+  transition: .2s ease;
+    -webkit-transition: .2s ease;
+    -moz-transition: .2s ease;
+    -ms-transition: .2s ease;
+    -o-transition: .2s ease;
+}
+
+#lf-invisible-overlay-top {
+  width: 100%;
+  height: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
