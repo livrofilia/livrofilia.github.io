@@ -76,7 +76,7 @@ width: calc(100% - 30px);\
      <p>Se você se sente confortável com spoilers, <b>prossiga por sua conta e risco<\/b>. Veja nossa <a href=\"http://www.livrofilia.com\/p\/politica-de-spoilers.html\" title=\"Política de Spoilers\"><b>Política de Spoilers<\/b><\/a> para mais informações.<\/p>\
    <\/div>\
  <\/div>\
-",
+";
 
 (function ( window )
 {
