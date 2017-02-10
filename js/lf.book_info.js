@@ -143,5 +143,5 @@ for ( i = 1; i <= $( '.book_info' ).size(); i++ )
   else document.querySelector( '._' + i + ' .lf-book-info-author' ).innerHTML = 'Autor(a)';
 };
 
-$( 'head' ).append('<link rel="stylesheet" href="http://livrofilia.github.io/css/lf.book_info.css" />');
+$( 'head' ).append('<link rel="stylesheet" href="//livrofilia.github.io/css/lf.book_info.css" />');
 //]]>

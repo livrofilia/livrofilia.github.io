@@ -39,7 +39,7 @@ width: calc(100% - 30px);\
     height: 150px;\
     display: inline-block;\
     position: relative;\
-    background-image: url(http://jvribeiro.github.io/spoiler_alert.png);\
+    background-image: url(//livrofilia.github.io/img/icons/spoiler_alert.png);\
     background-size: 100%;\
     background-repeat: no-repeat;\
     background-position: 50%;\
