@@ -57,6 +57,15 @@
     position: absolute;
     left: 540px;
   }
+
+  .lf-book-info-cover img {
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+    min-width: 230px;
+    max-width: 230px;
+    margin: 0px;
+  }
 }
 
 @media only screen and (max-width: 729px) {
@@ -95,19 +104,18 @@
   .lf-book-info-overlay {
     display: none;
   }
+
+  .lf-book-info-cover img {
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+    min-width: 160px;
+    max-width: 230px;
+    margin: 0px;
+  }
 }
 
 
-
-
-.lf-book-info-cover img {
-  width: 100%;
-  height: auto;
-  min-height: 100%;
-  min-width: 160px;
-  max-width: 230px;
-  margin: 0px;
-}
 
 .lf-book-info-info ul li {
   margin-left: -40px;
