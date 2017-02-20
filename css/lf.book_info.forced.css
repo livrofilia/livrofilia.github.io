@@ -1,0 +1,10 @@
+
+@media only screen and (min-width: 1100px){
+  .lf-book-info-info {
+      display: -webkit-inline-box;
+      width: 400px;
+      max-width: 100%;
+      height: auto;
+      margin-left: -5px;
+  }
+}
