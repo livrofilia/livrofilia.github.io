@@ -1,5 +1,8 @@
+.book_info {
+  max-width: 680px;
+}
 
-@media only screen and (min-width: 730px) {
+@media only screen and (min-width: 1100px) {
   .lf-book-info-holder {
     width: 100%;
     height: 335px;
@@ -17,11 +20,11 @@
   }
 
   .lf-book-info-overlay {
-    width: calc(100% + 60px);
-    width: -webkit-calc(100% + 60px);
-    width: -moz-calc(100% + 60px);
-    width: -ms-calc(100% + 60px);
-    width: -o-calc(100% + 60px);
+    width: calc(100% + 70px);
+    width: -webkit-calc(100% + 70px);
+    width: -moz-calc(100% + 70px);
+    width: -ms-calc(100% + 70px);
+    width: -o-calc(100% + 70px);
     height: 350px;
     position: static;
     margin-bottom: 85px;
@@ -55,7 +58,7 @@
     margin-top: 20px;
     line-height: 18px;
     position: absolute;
-    left: 420px;
+    left: 240px;
   }
 
   .lf-book-info-cover img {
@@ -68,7 +71,81 @@
   }
 }
 
-@media only screen and (max-width: 729px) {
+
+@media only screen and (min-width: 601px) {
+  .lf-book-info-holder {
+    width: 100%;
+    height: 335px;
+    margin-left: -15px;
+    padding-right: 20px;
+    padding-left: 0px;
+    background-color: #fbcdff;
+    border: none;
+    background-size: 100% auto;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+    border-radius: 0 20px 20px 0;
+    box-shadow: 0 0 15px #ccc;
+  }
+
+  .lf-book-info-overlay {
+    width: calc(100% + 70px);
+    width: -webkit-calc(100% + 70px);
+    width: -moz-calc(100% + 70px);
+    width: -ms-calc(100% + 70px);
+    width: -o-calc(100% + 70px);
+    height: 350px;
+    position: static;
+    margin-bottom: 85px;
+    background-color: rgba(255, 255, 255, 0.9);
+    background-image: url(https://livrofilia.github.io/img/logo/400x180/livrofilia-logo-400x180-alt-2.png);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: 85% 95%;
+  }
+
+ .lf-book-info-cover {
+  max-width: 100%;
+  height: 100%;
+  border-right: 1px solid #b1b1b1;
+  display: -webkit-inline-box;
+  overflow: hidden;
+  margin-bottom: 100px;
+}
+
+  .lf-book-info-info {
+    display: -webkit-inline-box;
+    width: calc(100% - 230px);
+    max-width: 100%;
+    height: auto;
+    margin-left: -5px;
+  }
+
+  .lf-book-info-info ul {
+    list-style: none;
+    margin-left: 0;
+    margin-top: 20px;
+    line-height: 18px;
+    position: absolute;
+    left: 240px;
+  }
+
+  .lf-book-info-cover img {
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+    min-width: 230px;
+    max-width: 230px;
+    margin: 0px;
+  }
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
   .lf-book-info-holder {
     width: 100%;
     height: auto;
@@ -76,14 +153,15 @@
     padding-top: 10px;
     padding-right: 10px;
     padding-left: 10px;
-    background: #feffe8 !important;
+    background: #fef6ff !important;
+    box-shadow: 0 0 15px #ccc;
   }
 
 .lf-book-info-cover {
   width: 160px;
   max-width: 100%;
-  height: 100%;
-  border-right: 1px solid #e3e3e3;
+  height: auto;
+  border: 1px solid #e3e3e3;
   display: -webkit-inline-box;
   overflow: hidden;
 }
@@ -99,10 +177,11 @@
 
   .lf-book-info-info ul {
     list-style: none;
+    margin-left: 5px;
   }
 
   .lf-book-info-overlay {
-    display: none;
+  display: none;
   }
 
   .lf-book-info-cover img {
