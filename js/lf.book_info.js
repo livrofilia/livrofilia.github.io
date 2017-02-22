@@ -68,7 +68,7 @@ for ( i = 1; i <= $( '.book_info' ).size(); i++ )
   + "  <div class='lf-book-info-cover'>"
   + "    <img src='" + livro[i].urlDaImagem + "' />"
   + "  </div>"
-  + "  <div class='lf-book-info-info'><div class='lf-book-info-overlay'></div>"
+  + "  <div class='lf-book-info-info'><div class='lf-book-info-overlay'>"
   + "    <ul>"
   + "      <li class='lf_Li_titulo'>Título: <strong>" + livro[i].titulo + "</strong></li>"
   + "      <li class='lf_Li_tituloOriginal'>Título Original: <strong>" + livro[i].tituloOriginal + "</strong></li>"
@@ -108,7 +108,7 @@ for ( i = 1; i <= $( '.book_info' ).size(); i++ )
   + "      <br>"
   + "      <li class='lf_Li_linkDaResenha'><strong><a href='" + livro[i].linkDaResenha + "' target='_blank' rel='nofollow'><i class='fa fa-hand-o-right'></i> Leia a Resenha do Livrofilia</a></strong></li>"
   + "      <div class='s5_d9e3q8'></div>"
-  + "    </ul>"
+  + "    </ul></div>"
   + "  </div>"
   + "</div>"
   );
@@ -144,4 +144,5 @@ for ( i = 1; i <= $( '.book_info' ).size(); i++ )
 };
 
 $( 'head' ).append('<link rel="stylesheet" href="//livrofilia.github.io/css/lf.book_info.css" />');
+$( 'head' ).append('<link rel="stylesheet" href="css/lf.book_info.css" />');
 //]]>
