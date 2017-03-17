@@ -11,14 +11,23 @@ Obs.: A letra L está ligeiramente maior do que o tamanho proporcional às outras.
 
 Cores
 --------------------------
-Rosa claro:
+Livro:
 Hx: #fb8dff
 RGB: 251,141,255
 
-Rosa escuro:
+Filia:
 Hx: #e756ec
 RGB: 231,86,236
 
-Roxo:
+Prateleira:
 Hx: #9a008d
 RGB: 154,0,141
+
+
+Fundo:
+HX: #fef0ff
+RGB: 254, 240, 255
+
+Slogan:
+HX: #993e91
+RGB: 153, 62, 145
