@@ -78,7 +78,6 @@ width: calc(100% - 30px);\
  <\/div>",
 
 adsense = "\
-<script async src=\"//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"><\/script>\
 <!-- Post LF -->\
 <ins class=\"adsbygoogle\"\
      style=\"display:block\"\
@@ -92,6 +91,7 @@ adsense = "\
 
 (function ( window )
 {
+  $('head').append('<script async src=\"//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"><\/script>');
   document.body.innerHTML = document.body.innerHTML.replace(/\[\[spoiler\]\]/gi, SPOILER);
   document.body.innerHTML = document.body.innerHTML.replace(/\[\[ad\]\]/gi, adsense);
 })( window );
