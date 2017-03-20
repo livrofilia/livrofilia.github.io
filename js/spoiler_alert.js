@@ -75,10 +75,23 @@ width: calc(100% - 30px);\
      <p>Atenção! Este post contém alguns <a href=\"http://www.livrofilia.com\/p\/politica-de-spoilers.html\" title=\"Política de Spoilers\"><b>SPOILERS<\/b><\/a>! Caso ainda não tenha lido o livro em questão e não quer revelações do enredo, <span class=\"red\">NÃO CONTINUE LENDO<\/span>.<\/p>\
      <p>Se você se sente confortável com spoilers, <b>prossiga por sua conta e risco<\/b>. Veja nossa <a href=\"http://www.livrofilia.com\/p\/politica-de-spoilers.html\" title=\"Política de Spoilers\"><b>Política de Spoilers<\/b><\/a> para mais informações.<\/p>\
    <\/div>\
- <\/div>\
+ <\/div>",
+
+adsense = "\
+<script async src=\"//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js\"><\/script>\
+<!-- Post LF -->\
+<ins class=\"adsbygoogle\"\
+     style=\"display:block\"\
+     data-ad-client=\"ca-pub-6309089152812956\"\
+     data-ad-slot=\"7110858025\"\
+     data-ad-format=\"auto\"></ins>\
+<script>\
+(adsbygoogle = window.adsbygoogle || []).push({});\
+</script>\
 ";
 
 (function ( window )
 {
   document.body.innerHTML = document.body.innerHTML.replace(/\[\[spoiler\]\]/gi, SPOILER);
+  document.body.innerHTML = document.body.innerHTML.replace(/\[\[ad\]\]/gi, adsense);
 })( window );
