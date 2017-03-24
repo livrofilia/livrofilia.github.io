@@ -87,10 +87,13 @@ adsense = "\
 <script>\
 $(document).ready(function ()\
 {\
-  setTimeout(function ()\
-  {\
-    (adsbygoogle = window.adsbygoogle || []).push({});\
-  }, 3000);\
+  $( window ).bind( 'scroll', function ()\
+		{\
+      if ( $( window ).scrollTop() > 228 )\
+			{\
+        (adsbygoogle = window.adsbygoogle || []).push({});\
+      }\
+    });\
 });\
 </script>\
 ";
