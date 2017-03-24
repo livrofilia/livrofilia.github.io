@@ -85,7 +85,13 @@ adsense = "\
      data-ad-slot=\"7110858025\"\
      data-ad-format=\"auto\"></ins>\
 <script>\
-$(document).ready(function (){(adsbygoogle = window.adsbygoogle || []).push({})});\
+$(document).ready(function ()\
+{\
+  setTimeout(function ()\
+  {\
+    (adsbygoogle = window.adsbygoogle || []).push({});\
+  }, 3000);\
+});\
 </script>\
 ";
 
