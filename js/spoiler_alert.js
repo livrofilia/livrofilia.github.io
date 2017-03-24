@@ -85,16 +85,7 @@ adsense = "\
      data-ad-slot=\"7110858025\"\
      data-ad-format=\"auto\"></ins>\
 <script>\
-$(document).ready(function ()\
-{\
-  $( window ).bind( 'scroll', function ()\
-		{\
-      if ( $( window ).scrollTop() > 228 )\
-			{\
-        (adsbygoogle = window.adsbygoogle || []).push({});\
-      }\
-    });\
-});\
+(adsbygoogle = window.adsbygoogle || []).push({});\
 </script>\
 ";
 
