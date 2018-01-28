@@ -31,7 +31,7 @@
   background-color: #fff;
   width: 200px;
   height: 150px;
-  /* display: none; */
+  display: none;
   position: absolute;
   left: calc(50% - 100px);
   left: -webkit-calc(50% - 100px);
