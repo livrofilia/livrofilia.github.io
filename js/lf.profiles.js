@@ -13,28 +13,28 @@ var emilyIcon = "//livrofilia.github.io/img/profiles/emily.jpg",
     emilyTwitterUrl = "https://www.twitter.com/livrofilia",
     emilyPosts = "http://www.livrofilia.com/search/label/Emily Abreu",
     emilyInstagramUsername = "emiiilysantoos",
-    emilyFacebook = "<a title=\"Facebook de Emily\" class=\"facebook\" href=\""+ emilyFacebookUrl +"\" rel=\"nofollow\" target=\"_blank\"><i class=\"fa fa-facebook\"><\/i> Facebook<\/a>",
-    emilyTwitter = "<a title=\"Twitter de Emily\" class=\"twitter\" href=\""+ emilyTwitterUrl +"\" rel=\"nofollow\" target=\"_blank\"><i class=\"fa fa-twitter\"><\/i> Twitter<\/a>",
-    emilyInstagram = "<a title=\"Instagram de Emily\" class=\"instagram\" href=\"http:\/\/instagram.com\/"+ emilyInstagramUsername +"\" rel=\"nofollow\" target=\"_blank\"><i class=\"fa fa-instagram\"><\/i> Instagram<\/a>",
-    emilySkoob = "<a title=\"Emily no Skoob\" class=\"skoob\" href=\""+ emilySkoobUrl +"\" rel=\"nofollow\" target=\"_blank\"><i class=\"fa fa-book\"><\/i> Skoob<\/a>",
+    emilyFacebook = "<a title=\"Facebook de Emily\" class=\"facebook\" href=\""+ emilyFacebookUrl +"\" rel=\"nofollow\" target=\"_blank\"><i class=\"fab fa-facebook-square\"><\/i> Facebook<\/a>",
+    emilyTwitter = "<a title=\"Twitter de Emily\" class=\"twitter\" href=\""+ emilyTwitterUrl +"\" rel=\"nofollow\" target=\"_blank\"><i class=\"fab fa-twitter\"><\/i> Twitter<\/a>",
+    emilyInstagram = "<a title=\"Instagram de Emily\" class=\"instagram\" href=\"http:\/\/instagram.com\/"+ emilyInstagramUsername +"\" rel=\"nofollow\" target=\"_blank\"><i class=\"fab fa-instagram\"><\/i> Instagram<\/a>",
+    emilySkoob = "<a title=\"Emily no Skoob\" class=\"skoob\" href=\""+ emilySkoobUrl +"\" rel=\"nofollow\" target=\"_blank\"><i class=\"fas fa-book\"><\/i> Skoob<\/a>",
 
     camilaFacebookUrl = "https://facebook.com/CGabriely",
     camilaPosts = "http://www.livrofilia.com/search/label/Camila Correa",
     camilaInstagramUsername = "camilagcorrea",
-    camilaFacebook = "<a title=\"Facebook de Camila\" class=\"facebook\" href=\""+ camilaFacebookUrl +"\" rel=\"nofollow\" target=\"_blank\"><i class=\"fa fa-facebook\"><\/i> Facebook<\/a>",
-    camilaInstagram = "<a title=\"Instagram de Camila\" class=\"instagram\" href=\"http:\/\/instagram.com\/"+ camilaInstagramUsername +"\" rel=\"nofollow\" target=\"_blank\"><i class=\"fa fa-instagram\"><\/i> Instagram<\/a>",
+    camilaFacebook = "<a title=\"Facebook de Camila\" class=\"facebook\" href=\""+ camilaFacebookUrl +"\" rel=\"nofollow\" target=\"_blank\"><i class=\"fab fa-facebook-square\"><\/i> Facebook<\/a>",
+    camilaInstagram = "<a title=\"Instagram de Camila\" class=\"instagram\" href=\"http:\/\/instagram.com\/"+ camilaInstagramUsername +"\" rel=\"nofollow\" target=\"_blank\"><i class=\"fab fa-instagram\"><\/i> Instagram<\/a>",
 
     tataFacebookUrl = "#",
     tataPosts = "http://www.livrofilia.com/search/label/Thamiris Almeida",
     tataInstagramUsername = "thamirisalmeida22",
-    tataFacebook = "<a title=\"Facebook de Thamiris\" class=\"facebook\" href=\""+ tataFacebookUrl +"\" rel=\"nofollow\" target=\"_blank\"><i class=\"fa fa-facebook\"><\/i><\/a>",
-    tataInstagram = "<a title=\"Instagram de Thamiris\" class=\"instagram\" href=\"http:\/\/instagram.com\/"+ tataInstagramUsername +"\" rel=\"nofollow\" target=\"_blank\"><i class=\"fa fa-instagram\"><\/i><\/a>",
+    tataFacebook = "<a title=\"Facebook de Thamiris\" class=\"facebook\" href=\""+ tataFacebookUrl +"\" rel=\"nofollow\" target=\"_blank\"><i class=\"fab fa-facebook-square\"><\/i><\/a>",
+    tataInstagram = "<a title=\"Instagram de Thamiris\" class=\"instagram\" href=\"http:\/\/instagram.com\/"+ tataInstagramUsername +"\" rel=\"nofollow\" target=\"_blank\"><i class=\"fab fa-instagram\"><\/i><\/a>",
 
     victorFacebookUrl = "https://facebook.com/OVictorRibeiro",
     victorPosts = "http://www.livrofilia.com/search/label/Victor Ribeiro",
     victorInstagramUsername = "_jvribeiro",
-    victorFacebook = "<a title=\"Facebook de Victor\" class=\"facebook\" href=\""+ victorFacebookUrl +"\" rel=\"nofollow\" target=\"_blank\"><i class=\"fa fa-facebook\"><\/i><\/a>",
-    victorInstagram = "<a title=\"Instagram de Victor\" class=\"instagram\" href=\"http:\/\/instagram.com\/"+ victorInstagramUsername +"\" rel=\"nofollow\" target=\"_blank\"><i class=\"fa fa-instagram\"><\/i><\/a>",
+    victorFacebook = "<a title=\"Facebook de Victor\" class=\"facebook\" href=\""+ victorFacebookUrl +"\" rel=\"nofollow\" target=\"_blank\"><i class=\"fab fa-facebook-square\"><\/i><\/a>",
+    victorInstagram = "<a title=\"Instagram de Victor\" class=\"instagram\" href=\"http:\/\/instagram.com\/"+ victorInstagramUsername +"\" rel=\"nofollow\" target=\"_blank\"><i class=\"fab fa-instagram\"><\/i><\/a>",
 
 
 EMILY = "\
@@ -165,7 +165,7 @@ EMILY = "\
    <div class=\"icon\"><\/div>\
    <div class=\"text\">\
      <h1>Emily Abreu<\/h1>\
-      <a href=\"" + emilyPosts + "\"><i class='fa fa-bookmark-o'></i> Meus posts<\/a> • " + emilyInstagram+" <br> " + emilyFacebook + " • " + emilySkoob + "\
+      <a href=\"" + emilyPosts + "\"><i class='far fa-bookmark'></i> Meus posts<\/a> • " + emilyInstagram+" <br> " + emilyFacebook + " • " + emilySkoob + "\
      <\/div>\
 </div>\
 ",
@@ -322,7 +322,7 @@ CAMILA = "\
    <div class=\"icon\"><\/div>\
    <div class=\"text\">\
      <h1>Camila Correa<\/h1>\
-      <a href='" + camilaPosts + "'><i class='fa fa-bookmark-o'></i> Meus posts<\/a> • " + camilaInstagram + " <br> <a href='http://calmomila.com' target='_blank' rel='nofollow'><i class='fa fa-external-link'></i> Calmomila.com<\/a>\
+      <a href='" + camilaPosts + "'><i class='far fa-bookmark'></i> Meus posts<\/a> • " + camilaInstagram + " <br> <a href='http://calmomila.com' target='_blank' rel='nofollow'><i class='fas fa-external-link-alt'></i> Calmomila.com<\/a>\
      <\/div>\
 </div>\
 ",
